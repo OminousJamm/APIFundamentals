@@ -1,0 +1,21 @@
+@APIFundamentals_HostAddress = http://localhost:5225
+
+GET {{APIFundamentals_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+POST {{APIFundamentals_HostAddress}}/weatherforecast/Login
+Content-Type: application/json
+
+{
+  "User": "admin",
+  "Password": "admin"
+}
+
+###
+
+GET {{APIFundamentals_HostAddress}}/api/Users/
+Accept: application/json
+
+###
