@@ -43,3 +43,4 @@ packages/
 # Otros
 *.DS_Store
 Thumbs.db
+*.http
